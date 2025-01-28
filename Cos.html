@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coș - Cardagro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="Cardagro Logo">
+            <h1>Cardagro</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Acasă</a></li>
+                <li><a href="produse.html">Produse</a></li>
+                <li><a href="cos.html">Coș (<span id="cart-count">0</span>)</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Coșul tău</h2>
+        <div id="cart-items">
+            <!-- Produsele din coș vor fi încărcate din JavaScript -->
+        </div>
+        <button id="checkout-btn" class="btn">Finalizează Comanda</button>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Cardagro. Toate drepturile rezervate.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
