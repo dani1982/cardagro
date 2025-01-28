@@ -1,0 +1,14 @@
+/cardagro
+│
+├── index.html
+├── produse.html
+├── contact.html
+├── cos.html
+├── styles.css
+├── script.js
+├── images
+│   ├── piesa1.jpg
+│   ├── piesa2.jpg
+│   ├── tractor.jpg
+│   └── logo.png
+└── README.md
